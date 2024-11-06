@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Odisha-Service</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="astrology.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="astrology.html"><img src="./assets/images/LOGO.png" alt="log" class="logo"></a>
+
+      <nav class="navbar container" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li>
+            <a href="#service" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <!-- <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li> -->
+
+          <li>
+            <a href="astro-contact.html" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+          <li>
+            <a href="register.html" class="navbar-link" data-nav-link>Register as a Professional</a>
+          </li>
+
+          <li>
+            <a href="login.html" class="btn btn-primary">Login/SignUp</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+        <ion-icon name="menu-outline" class="open"></ion-icon>
+        <ion-icon name="close-outline" class="close"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <div class="hero-section">
+        <video autoplay muted loop class="video-background">
+          <source src="astrology.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="overlay">
+          <div class="content">
+            <h1>Welcome To <br> <span class="highlight">THE JYOTISH ASTROLOGY</span></h1>
+            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
+              consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio.</p>
+            <a href="#" class="btn btn-primary">READ MORE</a>
+          </div>
+        </div>
+      </div>
+      
+
+
+      <!--------- SEARCH SECTION ----------->
+
+      <!-- <div class="search-filter-container">
+        <form class="search-bar">
+          <input type="text" placeholder="Search..." class="search-input" id="searchInput">
+          <button type="submit" class="search-btn"><ion-icon name="search-outline"></ion-icon></button>
+        </form>
+
+        <div class="filter-dropdown">
+          <select id="filter" class="filter-select">
+            <option value="all">All Categories</option>
+            <option value="marketing">Marketing</option>
+            <option value="seo">SEO</option>
+            <option value="content">Content</option>
+            <option value="astrology">Astrology</option>
+          </select>
+        </div>
+      </div> -->
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <div class="about-banner">
+            <img src="./assets/images/astro-about-banner.jpg" alt="about banner" class="img-cover">
+          </div>
+
+          <div class="about-content">
+            <h2 class="h2 section-title">About <span class="highlight">Jyotish</span></h2>
+
+            <h3 class="phone-number">+1800-123-123</h3>
+
+            <h3 class="tagline">Horoscope Reveals The Will Of God</h3>
+
+            <p class="section-text">
+              Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus
+              a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent
+              taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+            </p>
+
+            <p class="section-text">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+              rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+              explicabo.
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+      <section class="our-service" id="service">
+        <h2>Our services</h2>
+        <p class="intro-text">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+          auctor, nisi elit consequat hello Aenean world.</p>
+        <div class="service-cards">
+          <div class="card">
+            <div class="icon"><img src="carrer-icon.gif" alt="Career Icon"></div>
+            <h3>CAREER</h3>
+            <p>Proin gravida nibh vel velit auctor aliquet. Aenean.</p>
+            <a href="#" class="read-more">Read More →</a>
+          </div>
+          <div class="card">
+            <div class="icon"><img src="marriage-icon.gif" alt="Marriage Icon"></div>
+            <h3>MARRIAGE</h3>
+            <p>Proin gravida nibh vel velit auctor aliquet. Aenean.</p>
+            <a href="#" class="read-more">Read More →</a>
+          </div>
+          <div class="card">
+            <div class="icon"><img src="worship-icon.gif" alt="Worship Lesson Icon"></div>
+            <h3>WORSHIP LESSON</h3>
+            <p>Proin gravida nibh vel velit auctor aliquet. Aenean.</p>
+            <a href="#" class="read-more">Read More →</a>
+          </div>
+          <div class="card">
+            <div class="icon"><img src="pregnancy-icon.gif" alt="Pregnancy Icon"></div>
+            <h3>PREGNANCY</h3>
+            <p>Proin gravida nibh vel velit auctor aliquet. Aenean.</p>
+            <a href="#" class="read-more">Read More →</a>
+          </div>
+          <div class="card">
+            <div class="icon"><img src="manglik-dosha-icon.gif" alt="Manglik Dosha Icon"></div>
+            <h3>MANGLIK DOSHA</h3>
+            <p>Proin gravida nibh vel velit auctor aliquet. Aenean.</p>
+            <a href="#" class="read-more">Read More →</a>
+          </div>
+          <div class="card">
+            <div class="icon"><img src="kundli-dosha-icon.gif" alt="Kundli Dosha Icon"></div>
+            <h3>KUNDLI DOSHA</h3>
+            <p>Proin gravida nibh vel velit auctor aliquet. Aenean.</p>
+            <a href="#" class="read-more">Read More →</a>
+          </div>
+          <div class="card">
+            <div class="icon"><img src="festivals-icon.gif" alt="Festivals Icon"></div>
+            <h3>FESTIVALS</h3>
+            <p>Proin gravida nibh vel velit auctor aliquet. Aenean.</p>
+            <a href="#" class="read-more">Read More →</a>
+          </div>
+          <div class="card">
+            <div class="icon"><img src="name-analysis-icon.gif" alt="Name Analysis Icon"></div>
+            <h3>NAME ANALYSIS</h3>
+            <p>Proin gravida nibh vel velit auctor aliquet. Aenean.</p>
+            <a href="#" class="read-more">Read More →</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <!--  /* service provide section */ -->
+
+      <section class="carousel">
+        <div class="heading-section">
+          <h2>Astrology</h2>
+        </div>
+        <div class="carousel-track-container">
+          <ul class="carousel-track">
+            <li class="carousel-slide">
+              <img src="astrology1.jpg" alt="Service 1" class="carousel-image">
+              <p>Service 1</p>
+              <span>Flat ₹100 off</span>
+            </li>
+            <li class="carousel-slide">
+              <img src="astrology2.jpg" alt="Service 2" class="carousel-image">
+              <p>Service 2</p>
+              <span>Up to 50% off</span>
+            </li>
+            <li class="carousel-slide">
+              <img src="astrology3.jpg" alt="Service 3" class="carousel-image">
+              <p>Service 3</p>
+              <span>Flat 20% Cashback</span>
+            </li>
+            <li class="carousel-slide">
+              <img src="astrology1.jpg" alt="Service 4" class="carousel-image">
+              <p>Service 4</p>
+              <span>Bathroom and Kitchen Cleaning</span>
+            </li>
+            <li class="carousel-slide">
+              <img src="astrology1.jpg" alt="Service 4" class="carousel-image">
+              <p>Service 4</p>
+              <span>Bathroom and Kitchen Cleaning</span>
+            </li>
+            <li class="carousel-slide">
+              <img src="astrology1.jpg" alt="Service 4" class="carousel-image">
+              <p>Service 4</p>
+              <span>Bathroom and Kitchen Cleaning</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+      <!-- <section class="carousel">
+      <div class="heading-section">
+        <h2>Digital Marketing</h2>
+    </div>
+        <div class="carousel-track-container">
+            <ul class="carousel-track">
+                <li class="carousel-slide">
+                    <img src="digital.jpg" alt="Service 1" class="carousel-image">
+                    <p>Service 1</p>
+                    <span>Flat ₹100 off</span>
+                </li>
+                <li class="carousel-slide">
+                    <img src="digital2.jpg" alt="Service 2" class="carousel-image">
+                    <p>Service 2</p>
+                    <span>Up to 50% off</span>
+                </li>
+                <li class="carousel-slide">
+                    <img src="digital3.jpg" alt="Service 3" class="carousel-image">
+                    <p>Service 3</p>
+                    <span>Flat 20% Cashback</span>
+                </li>
+                <li class="carousel-slide">
+                    <img src="digital4.jpg" alt="Service 4" class="carousel-image">
+                    <p>Service 4</p>
+                    <span>Bathroom and Kitchen Cleaning</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="carousel">
+      <div class="heading-section">
+        <h2>Paid Add in All Service</h2>
+    </div>
+        <div class="carousel-track-container">
+            <ul class="carousel-track">
+                <li class="carousel-slide">
+                    <img src="paidadd1.jpg" alt="Service 1" class="carousel-image">
+                    <p>Service 1</p>
+                    <span>Flat ₹100 off</span>
+                </li>
+                <li class="carousel-slide">
+                    <img src="paidadd2.jpg" alt="Service 2" class="carousel-image">
+                    <p>Service 2</p>
+                    <span>Up to 50% off</span>
+                </li>
+                <li class="carousel-slide">
+                    <img src="paidadd3.jpg" alt="Service 3" class="carousel-image">
+                    <p>Service 3</p>
+                    <span>Flat 20% Cashback</span>
+                </li>
+                <li class="carousel-slide">
+                    <img src="paidadd4.jpg" alt="Service 4" class="carousel-image">
+                    <p>Service 4</p>
+                    <span>Bathroom and Kitchen Cleaning</span>
+                </li>
+            </ul>
+        </div>
+    </section> -->
+      <!-- 
+        - #CTA
+      -->
+
+      <!-- <section class="section cta" aria-label="cta" style="background-image: url('./assets/images/cta-bg.jpg')">
+        <div class="container">
+
+          <p class="cta-subtitle">So What is Next?</p>
+
+          <h2 class="h2 section-title">Are You Ready? Let's get to Work!</h2>
+
+          <a href="#" class="btn btn-secondary">Get Started</a>
+
+        </div>
+      </section> -->
+
+      <!-- ARCHIVEMENT ------------------>
+
+      <div class="stats-section">
+        <div class="stat-card">
+          <div class="number">123</div>
+          <p class="description">Trusted by Million Clients</p>
+        </div>
+        <div class="stat-card">
+          <div class="number">16</div>
+          <p class="description">Years of Experience</p>
+        </div>
+        <div class="stat-card">
+          <div class="number">13</div>
+          <p class="description">Types of Horoscopes</p>
+        </div>
+        <div class="stat-card">
+          <div class="number">16</div>
+          <p class="description">Qualified Astrologers</p>
+        </div>
+        <div class="stat-card">
+          <div class="number">36</div>
+          <p class="description">Success Jyotish</p>
+        </div>
+      </div>
+
+
+      <!---------------------  TESTIMONIAL ------------------------>
+      
+      <section class="testimonia">
+      <div class="testimonial-section">
+        <video autoplay muted loop class="video-background">
+            <source src="testimonial.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="testimonial-section-title">What clients are saying</h2>
+        <p class="testimonial-intro-text">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+            auctor, nisi elit consequat hello Aenean world.</p>
+    
+        <div class="testimonial-slider">
+            <div class="testimonial-container">
+                <div class="testimonial-card">
+                    <div class="testimonial-img">
+                        <img src="https://via.placeholder.com/100" alt="Client 1">
+                    </div>
+                    <h3 class="client-name">Ralph Rios</h3>
+                    <p class="client-position">Creative Director</p>
+                    <div class="testimonial-dot"></div>
+                    <p class="testimonial-text">Lorem ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                        galley of type.</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-img">
+                        <img src="https://via.placeholder.com/100" alt="Client 2">
+                    </div>
+                    <h3 class="client-name">Sarah Doe</h3>
+                    <p class="client-position">Project Manager</p>
+                    <div class="testimonial-dot"></div>
+                    <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet,
+                        nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.</p>
+                </div>
+            </div>
+            <div class="testimonial-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </div>
+  </section>
+    
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <!--  <section class="section blog" id="blog" aria-label="blog">
+        <div class="container">
+
+          <h2 class="h2 section-title">Latest Articles Updated Weekly</h2>
+
+          <p class="section-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna
+            aliqua.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 860; --height: 646;">
+                  <img src="./assets/images/blog-1.jpg" width="860" height="646" loading="lazy"
+                    alt="How to Become a Successful Entry Level UX Designer" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="time" datetime="2022-06-16">June 16, 2022</time>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">How to Become a Successful Entry Level UX Designer</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card grid">
+
+                <figure class="card-banner img-holder" style="--width: 860; --height: 646;">
+                  <img src="./assets/images/blog-2.jpg" width="860" height="646" loading="lazy"
+                    alt="2022 Local SEO Success: The Year of Everywhere" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="time" datetime="2022-06-16">June 16, 2022</time>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">2022 Local SEO Success: The Year of Everywhere</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card grid">
+
+                <figure class="card-banner img-holder" style="--width: 860; --height: 646;">
+                  <img src="./assets/images/blog-3.jpg" width="860" height="646" loading="lazy"
+                    alt="The Guide to Running a Client Discovery Process" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="time" datetime="2022-06-16">June 16, 2022</time>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">The Guide to Running a Client Discovery Process</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card grid">
+
+                <figure class="card-banner img-holder" style="--width: 860; --height: 646;">
+                  <img src="./assets/images/blog-4.jpg" width="860" height="646" loading="lazy"
+                    alt="3 Ways to Get Client Approval for Scope Changes" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="time" datetime="2022-06-16">June 16, 2022</time>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">3 Ways to Get Client Approval for Scope Changes</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card grid">
+
+                <figure class="card-banner img-holder" style="--width: 860; --height: 646;">
+                  <img src="./assets/images/blog-5.jpg" width="860" height="646" loading="lazy"
+                    alt="Top 21 Must-Read Blogs For Creative Agencies" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="time" datetime="2022-06-16">June 16, 2022</time>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Top 21 Must-Read Blogs For Creative Agencies</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section> -->
+
+
+
+      <div class="team-section">
+        <h2 class="section-title">Our Team</h2>
+        <p class="intro-text">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+          auctor, nisi elit consequat hello Aenean world.</p>
+
+        <div class="team-grid">
+          <div class="team-card">
+            <div class="card-image">
+              <img src="astrologer.jpg" alt="Rashmi Doe">
+              <!-- <button class="call-btn"><i class="fas fa-phone"></i> Call Now</button> -->
+            </div>
+            <h3 class="member-name">Rashmi Doe</h3>
+            <p class="member-title">Magic ball reader</p>
+            <p class="charges">Charges: <span>$5 / Min.</span></p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <div class="subscribe-section">
+        <h2 class="subscribe-title">Subscribe Our Newsletter</h2>
+        <form class="subscribe-form">
+          <input type="email" class="subscribe-input" placeholder="Email Address..." required>
+          <button type="submit" class="subscribe-button">subscribe</button>
+        </form>
+      </div>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <!-- Footer placeholder -->
+  <div id="footer-placeholder"></div>
+
+  <script>
+    // JavaScript to include the footer HTML
+    fetch('footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer-placeholder').innerHTML = data;
+      });
+  </script>
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" aria-label="back to top" data-back-top-btn class="back-top-btn">
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="astrology.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
