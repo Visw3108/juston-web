@@ -558,59 +558,60 @@
 }
 
   
-  /* Hero Section and Image Slider */
-  .about-us-section {
-    position: relative;
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    background: url('/assets/images/about-background.jpg') no-repeat center center/cover;
-    background-attachment: fixed; /* Makes the background fixed */
-    text-align: center; /* Center text content within the section */
+ /* Hero Section and Image Slider */
+.about-us-section {
+  position: relative;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: url('/assets/images/about-background.jpg') no-repeat center center;
+  background-size: 100% 100%; /* Adjusted to show the full image */
+  background-attachment: fixed;
+  text-align: center;
 }
 
 /* Heading Wrapper Styling */
 .heading-wrapper {
-    padding: 10px 30px;
-    display: inline-block;
-    transition: transform 0.5s ease-in-out;
+  padding: 10px 30px;
+  display: inline-block;
+  transition: transform 0.5s ease-in-out;
 }
 
 /* Heading Text Styling */
 .about-us-heading {
-    font-size: 3rem;
-    color: white;
-    font-family: var(--ff-league-spartan);
-    text-transform: uppercase;
-    margin: 0; /* Remove any default margin for precise centering */
+  font-size: 5rem;
+  color: white;
+  font-family: var(--ff-league-spartan);
+  text-transform: uppercase;
+  margin: 0;
 }
 
 /* Zoom-In Effect */
 .about-us-section:hover .heading-wrapper {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .about-us-heading {
-        font-size: 2rem;
-    }
+  .about-us-heading {
+      font-size: 2rem;
+  }
 
-    .heading-wrapper {
-        padding: 8px 20px;
-    }
+  .heading-wrapper {
+      padding: 8px 20px;
+  }
 }
 
 @media (max-width: 480px) {
-    .about-us-heading {
-        font-size: 1.5rem;
-    }
+  .about-us-heading {
+      font-size: 1.5rem;
+  }
 
-    .heading-wrapper {
-        padding: 6px 15px;
-    }
+  .heading-wrapper {
+      padding: 6px 15px;
+  }
 }
 
 
