@@ -640,7 +640,7 @@
 }
 
 .filter-options .filter.active {
-    background-color: #1a3d5d;
+    background-color: var(--primary-color-hover);
     color: #fff;
 }
 
@@ -690,6 +690,7 @@
     font-size: 18px;
     margin-top: 15px;
     font-weight: 600;
+    color: var(--secondary-color);
 }
 
 /* Transition effect for hide/show */
