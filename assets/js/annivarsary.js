@@ -125,6 +125,16 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+// Intersection Observer for fade-in effect
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+      }
+  });
+});
+observer.observe(document.getElementById('venue-section'));
+
 
 document.addEventListener('contextmenu', function(e) {
   e.preventDefault();
