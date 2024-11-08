@@ -350,7 +350,7 @@ body {
 
 .logo {
   width: 100%;
-  max-width: 150px; /* Slightly smaller logo */
+  max-width: 200px; /* Slightly smaller logo */
   height: auto;
   transition: all 0.3s ease;
 }
